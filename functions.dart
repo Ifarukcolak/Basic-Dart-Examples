@@ -1,9 +1,9 @@
-main() {
-  /**
+/**
    * Dart Functions
    * Functions is wrap up set of statements and  used to perform specific task in any time and anywhere
    * Every function has a name and they are executed with the name
    */
+main() {
   int result = Add(5, 6); //call function and assign return value to the result
   print('Result : ${result}');
   SayHelloWorld();
