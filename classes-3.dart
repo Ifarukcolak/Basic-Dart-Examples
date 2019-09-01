@@ -2,13 +2,13 @@
  * Getters and Setters methods are used to set or retrieve class fields
  */
 
-main(){
+main(){ 
   Person person=new Person();
   //setting person fields
   person.setAge(25);
   person.setName("İsmet Faruk");
   person.setIsWork(true);
-  //display
+  //display info
   person.DisplayPersonInfo();
 }
 
@@ -17,7 +17,7 @@ class Person {
   String name;
   int age;
   bool isWork;
-  
+
   //constructors
   Person() {
     print('One person is created.');
